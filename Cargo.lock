@@ -417,8 +417,7 @@ dependencies = [
 [[package]]
 name = "psa-crypto"
 version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7bc6d5483e7d002ed1cc1e326ede9762cf2e9adcde0dbc36a926e8087694735a"
+source = "git+https://github.com/tgonzalezorlandoarm/rust-psa-crypto.git?branch=tg/debug#16b854fe8414a79a0cc1f97d79cece4e1935300f"
 dependencies = [
  "log",
  "psa-crypto-sys",
@@ -429,8 +428,7 @@ dependencies = [
 [[package]]
 name = "psa-crypto-sys"
 version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2d2be6a4212e526dda25f29cbe2b0d6879709ca62c826a0c569e77841f5f023e"
+source = "git+https://github.com/tgonzalezorlandoarm/rust-psa-crypto.git?branch=tg/debug#16b854fe8414a79a0cc1f97d79cece4e1935300f"
 dependencies = [
  "cc",
  "cmake",
